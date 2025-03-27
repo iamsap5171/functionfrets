@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'majormono';
+    src: url(Fonts/Bytesized-Regular.ttf);
+}
+@font-face {
+    font-family: 'ibmmid';
+    src: url(Fonts/IBMPlexMono-Medium.ttf);
+}
+img
+{
+    width: 40%;
+    height: auto;
+}
+#mytabinfo
+{
+    font-family: 'majormono';
+    font-size: 30px;
+    color: #706D54;
+    background-color: #ffffff00;
+    text-align: right;
+}
+#bio
+{
+    font-family: 'ibmmid';
+    font-size: 20px;
+    color: #932411;
+}
+#profilelist
+{
+    padding: 20px;
+}
+#topdiv
+{
+    font-family: 'majormono';
+    font-size: 20px;
+    color: #706D54;
+    background-color: #FFFFFF;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #706D54;
+    border-radius: 165px;
+}
+#profilediv
+{
+    font-family: 'ibmmid';
+    font-size: 20px;
+    color: #504B38;
+    background-color: #FFFFFF00;
+    padding: 20px;
+}
+#skilldiv
+{
+    font-family: 'ibmmid';
+    font-size: 20px;
+    color: #504B38;
+    background-color: #ffffff00;
+    padding: 20px;
+}
