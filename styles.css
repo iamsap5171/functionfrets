@@ -25,6 +25,12 @@ img
     font-size: 20px;
     color: #932411;
 }
+#cvcontainer
+{
+    font-family: 'ibmmid';
+    font-size: 20px;
+    padding: 20px;
+}
 #profilelist
 {
     padding: 20px;
