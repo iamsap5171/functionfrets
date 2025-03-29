@@ -8,58 +8,180 @@
 }
 img
 {
-    width: 40%;
+    width: 30%;
     height: auto;
+    border-radius: 8px 8px 8px 8px;
+}
+.container
+{
+    font-size: 0;
 }
 #mytabinfo
 {
     font-family: 'majormono';
-    font-size: 30px;
-    color: #706D54;
+    font-size: 60px;
+    color: #9ACBD0;
     background-color: #ffffff00;
     text-align: right;
+    vertical-align: text-top;
 }
 #bio
 {
     font-family: 'ibmmid';
     font-size: 20px;
-    color: #932411;
+    color: #F2EFE7;
+}
+#connect
+{
+    font-family: 'ibmmid';
+    text-align: left;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-right: 1100px;
+    color: #9ACBD0;
+    border: 20px solid #006A71;
+    background-color: #006A71;
+}
+#gtkm
+{
+    font-family: 'ibmmid';
+    text-align: right;
+    font-size: 35px;
+    margin-left: 1140px;
+    margin-right: 0px;
+    color: #9ACBD0;
+    border: 20px solid #006A71;
+    background-color: #006A71;
+}
+#skills
+{
+    font-family: 'ibmmid';
+    text-align: left;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-right: 1100px;
+    color: #006A71;
+    border: 20px solid #9ACBD0;
+    background-color: #9ACBD0;
 }
 #cvcontainer
 {
+    height: 250px;
+    background-color: #9ACBD0;
+    text-align: center;
     font-family: 'ibmmid';
     font-size: 20px;
-    padding: 20px;
+}
+.button
+{
+    background-color: #006A71;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: #48A6A7;
+    color: black;
+    transition: background-color 0.5ms ease;
+}
+.contactbutton:hover
+{
+    opacity: 0.4; /* Initial opacity */
+    transition: opacity 0.2s ease; /* Smooth transition */
 }
 #profilelist
 {
-    padding: 20px;
+    width: 50%;
+    border-width: 0cap;
+    margin-left: 465px;
+    margin-top: 130px;
+    overflow: hidden;
+}
+.container
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.skilllist
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 0 0 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #022c2f(0, 0, 0, 0.2);
+}
+.skilllist thead tr
+{
+    background-color: #006971;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.skilllist th, .skilllist td
+{
+    padding: 12px 15px;
+}
+.skilllist tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+    background-color: #F2EFE7;
 }
 #topdiv
 {
-    font-family: 'majormono';
-    font-size: 20px;
-    color: #706D54;
-    background-color: #FFFFFF;
-    text-align: right;
+    background-color: #006A71;
+    font-size: 0;
+    /*text-align: right;
     padding: 20px;
     margin: 20px;
     border: 5px solid #706D54;
-    border-radius: 165px;
+    border-radius: 165px;*/
 }
 #profilediv
 {
-    font-family: 'ibmmid';
+    background-color: #48A6A7;
+    height: 400px
+}
+#skillsec
+{
+    background-color: #F2EFE7;
     font-size: 20px;
-    color: #504B38;
-    background-color: #FFFFFF00;
-    padding: 20px;
+    font-family: "ibmmid";
+    min-height: 500px;
+    text-align: center;
 }
 #skilldiv
 {
+    margin-left: 540px;
+    margin-right: 540px;
+}
+#formsec
+{
+    min-height: 300px;
+    background-color: #006A71;
+}
+#mailme
+{
     font-family: 'ibmmid';
-    font-size: 20px;
-    color: #504B38;
-    background-color: #ffffff00;
-    padding: 20px;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-right: 1100px;
+    color: #9ACBD0;
+    border: 20px solid #006A71;
+    background-color: #006A71;
+}
+#formdiv
+{
+    margin-left: 1000px;
+    margin-right: 50px;
+    padding-bottom: 50px;
 }
