@@ -1,0 +1,274 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    min-height: 100vh;
+    background-image: url(Images/bgmtn_blur2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.navbar
+{
+    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);*/
+    display: flex;
+}
+.navbar ul
+{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul li
+{
+    height: 80px;
+}
+.navbar a
+{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    font-family: 'futuramid';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar a:hover
+{
+    /*background-color: #00697161;*/
+    color: #d2d2d2;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+#nblogo
+{
+    font-family: 'majormono';
+    font-size: 60px;
+    color: #d2d2d2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 0 40px;
+}
+#nblogo:hover
+{
+    color: #8b8d8e;
+    font-size: 57px;
+    transition: 0.3s ease;
+}
+#sidebar
+{
+    margin-left: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 100%px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.237);
+    backdrop-filter: blur(5px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: row-reverse;
+    align-items: right;
+    justify-content: right;
+}
+#sidebar li
+{
+    width: 240px;
+    align-items: right;
+}
+#sidebar a
+{
+    width: 250px;
+    align-items: right;
+}
+#intro_container
+{
+    margin: 110px auto 0 20px;
+    position: relative;
+    padding: 10px;
+}
+#intro_container h1
+{
+    font-family: 'pfdisplaysb';
+    font-size: 9.375em;
+    color: #d2d2d2;
+    text-align: left;
+    margin: 0 0 20px 5px;
+    background: linear-gradient(to right, #1F4529, #47663B, #5D8736, #A9C46C, #1F4529);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 20s ease infinite;
+}
+@keyframes animate-gradient
+{
+    to{
+        background-position: 200%;
+    }
+}
+#intro_container h3
+{
+    font-family: 'garamondregular';
+    font-size: 2em;
+    color: #d2d2d2;
+    text-align: left;
+    margin: 0 0 20px 20px;
+}
+#name_container
+{
+    border-left: white solid 5px;
+}
+#bio_container
+{
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fullscreen;
+    height: auto;
+    padding: 0 0 0 0;
+    position: static;
+}
+#bio_container h2
+{
+    font-family: 'futuramid';
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    /*text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;*/
+    margin: 0 0 20px 0;
+}
+#bio_container p
+{
+    width:50%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'futuralight';
+    font-size: 1.2em;
+    color: #d2d2d2;
+    margin: auto;
+}
+#cv_container
+{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fullscreen;
+    height: auto;
+    padding: 0 0 0 0;
+    position: static;
+}
+#cv_container h2
+{
+    font-family: 'futuramid';
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    /*text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;*/
+    margin: 0 0 20px 0;
+}
+#cv
+{
+    margin: auto;
+    width: 180px;
+    height: maximum-content;
+    padding: 8px;
+    background-color: #604652;
+    position: relative;
+}
+#cv:hover
+{
+    padding: 10px;
+    background: linear-gradient(to right, #0198b7, #0f359d, #0198b7);
+    transition: 0.3s ease;
+    background-size: 200%;
+    -webkit-text-fill-color: solid;
+    animation: animate-gradient 5s ease infinite;
+}
+#cv_container a
+{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'futuralight';
+    font-size: 1.5em;
+    color: white;
+}
+
+@font-face {
+    font-family: 'majormono';
+    src: url(Fonts/Bytesized-Regular.ttf);
+}
+@font-face {
+    font-family: 'ibmmid';
+    src: url(Fonts/IBMPlexMono-Medium.ttf);
+}
+@font-face{
+    font-family: 'futuralight';
+    src: url(Fonts/futuralightbt.ttf);
+}
+@font-face{
+    font-family: 'futuramid';
+    src: url(Fonts/futuramediumbt.ttf);
+}
+@font-face {
+    font-family: 'futuraxblk';
+    src: url(Fonts/futuraxblk.ttf);
+}
+@font-face {
+    font-family: 'garamond';
+    src: url(Fonts/garamond-regular.ttf);
+}
+@font-face {
+    font-family: 'garamondbold';
+    src: url(Fonts/garamond-bold.ttf);
+}
+@font-face {
+    font-family: 'garamondsemibold';
+    src: url(Fonts/garamond-semibold.ttf);
+}
+@font-face {
+    font-family: 'garamondmid';
+    src: url(Fonts/garamond-medium.ttf);
+}
+@font-face {
+    font-family: 'pfdisplay';
+    src: url(Fonts/pfdisplayregular.ttf);
+}
+@font-face {
+    font-family: 'pfdisplaysb';
+    src: url(Fonts/pfdisplaysemibold.ttf);
+}
+@font-face {
+    font-family: 'pfdisplaybold';
+    src: url(Fonts/pfdisplaybold.ttf);
+}
+@font-face {
+    font-family: 'pfdisplayblack';
+    src: url(Fonts/pfdisplayblack.ttf);
+}
+@media(max-width: 768px)
+{
+    .hideOnMobile{
+        display: none;
+    }
+    #intro_container h1, #intro_container h3
+    {
+        text-align: left;
+    }
+}
