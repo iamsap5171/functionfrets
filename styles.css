@@ -194,7 +194,7 @@ body
 #cv:hover
 {
     padding: 10px;
-    background: linear-gradient(to right, #0198b7, #0f359d, #0198b7);
+    background: linear-gradient(to right, #604652, #735557, #97866A, #604652);
     transition: 0.3s ease;
     background-size: 200%;
     -webkit-text-fill-color: solid;
