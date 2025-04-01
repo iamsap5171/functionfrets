@@ -6,7 +6,7 @@
 body
 {
     min-height: 100vh;
-    background-image: url(Images/bgmtn_blur.jpg);
+    background-image: url(Images/bgmtn_blur2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -91,7 +91,7 @@ body
 }
 #intro_container
 {
-    margin: 110px auto 0 20px;
+    margin: 90px auto 0 20px;
     position: relative;
     padding: 10px;
 }
