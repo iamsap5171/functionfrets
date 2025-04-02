@@ -5,11 +5,13 @@
 }
 body
 {
-    min-height: 100vh;
+    min-height: 200vh;
+    background-color: #00171d;
     background-image: url(Images/bgmtn_blur2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    border: 0;
 }
 .navbar
 {
@@ -91,7 +93,7 @@ body
 }
 #intro_container
 {
-    margin: 110px auto 0 20px;
+    margin: 140px auto 0 20px;
     position: relative;
     padding: 10px;
 }
@@ -102,7 +104,7 @@ body
     color: #d2d2d2;
     text-align: left;
     margin: 0 0 20px 5px;
-    background: linear-gradient(to right, #1F4529, #47663B, #5D8736, #A9C46C, #1F4529);
+    background: linear-gradient(to right, #1F4529, #47663B, #5D8736, #A9C46C, #A9C46C, #1F4529);
     background-size: 200%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -186,7 +188,7 @@ body
 {
     margin: auto;
     width: 180px;
-    height: maximum-content;
+    height: max-content;
     padding: 8px;
     background-color: #604652;
     position: relative;
@@ -209,7 +211,62 @@ body
     font-size: 1.5em;
     color: white;
 }
-
+#profile_container
+{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fullscreen;
+    height: auto;
+    padding: 0 0 0 0;
+}
+#profile_container h2
+{
+    font-family: 'futuramid';
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    /*text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;*/
+    margin: 0 0 20px 0;
+}
+#profiles
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#profiles a
+{
+    text-align: center;
+    margin: 0 40px 0 40px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    position: relative;
+}
+#profiles img
+{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+#profiles .hover
+{
+    opacity: 0;
+}
+#profiles .original:hover
+{
+    opacity: 0;
+}
+#profiles .hover:hover
+{
+    opacity: 1;
+    transition: 0.3s ease;
+}
 @font-face {
     font-family: 'majormono';
     src: url(Fonts/Bytesized-Regular.ttf);
