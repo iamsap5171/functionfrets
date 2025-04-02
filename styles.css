@@ -32,6 +32,7 @@ body
 }
 .navbar a
 {
+    background-image: inherit;
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -78,24 +79,33 @@ body
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
     display: none;
     flex-direction: row-reverse;
-    align-items: right;
-    justify-content: right;
+    text-align: right;
+    justify-content: flex-start;
 }
 #sidebar li
 {
     width: 240px;
-    align-items: right;
 }
 #sidebar a
 {
     width: 250px;
-    align-items: right;
+}
+#intronb
+{
+    background-image: url(Images/pexels-stywo-1054218.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: fullscreen;
 }
 #intro_container
 {
-    margin: 140px auto 0 20px;
+    margin: 0 auto 0 0;
     position: relative;
     padding: 10px;
+    size: cover;
 }
 #intro_container h1
 {
@@ -103,7 +113,7 @@ body
     font-size: 9.375em;
     color: #d2d2d2;
     text-align: left;
-    margin: 0 0 20px 5px;
+    margin: 100px 0 20px 5px;
     background: linear-gradient(to right, #1F4529, #47663B, #5D8736, #A9C46C, #A9C46C, #1F4529);
     background-size: 200%;
     background-clip: text;
@@ -131,15 +141,20 @@ body
 }
 #bio_container
 {
+    background-image: url(Images/sam-tsonis-dVq-eUBZkA0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: fullscreen;
+    height: 100vh;
     text-align: center;
-    margin-top: 160px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    width: fullscreen;
-    height: auto;
     padding: 0 0 0 0;
-    position: static;
+    position: relative;
 }
 #bio_container h2
 {
@@ -150,7 +165,7 @@ body
     /*text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-thickness: 1px;*/
-    margin: 0 0 20px 0;
+    margin: 100px 0 20px 0;
 }
 #bio_container p
 {
@@ -164,14 +179,22 @@ body
 }
 #cv_container
 {
+
     text-align: center;
-    margin-bottom: 30px;
+    background-image: url(Images/khashayar-kouchpeydeh-tvKwBlrhSAA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    width: fullscreen;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    width: fullscreen;
-    height: auto;
     padding: 0 0 0 0;
-    position: static;
+    position: relative;
 }
 #cv_container h2
 {
@@ -182,7 +205,7 @@ body
     /*text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-thickness: 1px;*/
-    margin: 0 0 20px 0;
+    margin: 130px 0 20px 0;
 }
 #cv
 {
@@ -213,12 +236,17 @@ body
 }
 #profile_container
 {
-    text-align: center;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(Images/anastasia-clark-XNDro-F6mzo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     width: fullscreen;
-    height: auto;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;;
     padding: 0 0 0 0;
 }
 #profile_container h2
@@ -230,7 +258,7 @@ body
     /*text-decoration-line: underline;
     text-decoration-color: white;
     text-decoration-thickness: 1px;*/
-    margin: 0 0 20px 0;
+    margin: 140px 0 20px 0;
 }
 #profiles
 {
@@ -240,7 +268,6 @@ body
 }
 #profiles a
 {
-    text-align: center;
     margin: 0 40px 0 40px;
     width: 100px;
     height: 100px;
@@ -250,9 +277,8 @@ body
 #profiles img
 {
     margin: auto;
-    width: 70px;
-    height: 70px;
     position: absolute;
+    width: 70px;
 }
 #profiles .hover
 {
