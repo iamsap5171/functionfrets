@@ -293,6 +293,38 @@ body
     opacity: 1;
     transition: 0.3s ease;
 }
+#skill_container
+{
+    background-image: url(Images/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#skill_table
+{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px 2rem;
+}
+#skill_table td
+{
+    font-family: 'futuralight';
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+#skill_table thead
+{
+    font-family: 'futuramid';
+    color: white;
+    font-size: 2.5em;
+}
 @font-face {
     font-family: 'majormono';
     src: url(Fonts/Bytesized-Regular.ttf);
